@@ -1,0 +1,1 @@
+setInterval("dpTime()",1E3);function dpTime(){var a=new Date;hours=a.getHours();minutes=a.getMinutes();seconds=a.getSeconds();12<hours?(hours-=12,ampm="\uc624\ud6c4 "):ampm="\uc624\uc804 ";10>hours&&(hours="0"+hours);10>minutes&&(minutes="0"+minutes);10>seconds&&(seconds="0"+seconds);document.getElementById("dpTime").innerHTML=ampm+hours+":"+minutes+":"+seconds};
