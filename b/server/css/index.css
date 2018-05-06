@@ -1,0 +1,192 @@
+#canvas,
+#connecting,
+#overlays {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute
+}
+#canvas,
+#gamemode,
+#nick,
+#play-btn {
+    width: 100%
+}
+#canvas,
+#chat_textbox,
+#connecting,
+#dpTime,
+#helloDialog,
+#overlays {
+    position: absolute
+}
+#chat_textbox,
+#chat_textbox:focus {
+    color: rgba(255, 255, 255, .8);
+    background: rgba(10, 10, 10, .6);
+    width: 300px
+}
+#connecting,
+#overlays {
+    display: none;
+    background-color: rgba(0, 0, 0, .5)
+}
+#footer,
+#gamemode {
+    text-align: center
+}
+#play-btn,
+#rule-btn,
+#settings-btn,
+# {
+    background-color: transparent;
+    color: #fff;
+    cursor: default
+}
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+}
+#nick {
+    color: #FFF;
+    font-family: Ubuntu
+}
+#overlays {
+    z-index: 200
+}
+#title {
+    padding: 10px
+}
+#dpTime {
+    color: #fff;
+    right: 60px;
+    margin-top: 3px;
+    font-size: 12pt;
+    z-index: 5
+}
+#canvas {
+    height: 100%
+}
+#connecting {
+    z-index: 100
+}
+#helloDialog {
+    width: 709.56px;
+    height: 540px;
+    padding: 5px 15px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    line-height: 1;
+    border-radius: 6px;
+    border: 1px solid #ABAEAF
+}
+#chat_textbox {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+    bottom: 8px;
+    border: 0;
+    outline: 0;
+    height: 30px;
+    text-indent: 12px;
+    left: 10px;
+    padding: 10px;
+    min-width: 64.72px;
+    min-height: 35px;
+    font-size: 15px
+}
+#chat_textbox:focus {
+    height: 40px;
+    font-size: 18px
+}
+#Sponsor-btn,
+#cafe-btn,
+#skin-btn {
+    color: #fff;
+    background: left top #95A5A6;
+    height: 38px;
+    object-position: absolute;
+    font-size: 10pt
+}
+#footer {
+    margin-bottom: 10px;
+    margin-top: -10px
+}
+#play-btn {
+    float: left;
+    margin-bottom: 20px;
+    border: 2px solid #00A2E8
+}
+#rule-btn {
+    width: 85%;
+    float: left;
+    margin-bottom: 7px;
+    border: 2px solid #99D9EA
+}
+#settings-btn {
+    width: 13%;
+    float: right;
+    margin-bottom: 7px;
+    border: 2px solid #00FF94
+}
+# {
+    margin-top: -5px;
+    margin-bottom: 12px;
+    border: 2px solid #FFC90E
+}
+#cafe-btn,
+#skin-btn {
+    width: 34%
+}
+#Sponsor-btn {
+    width: 35%
+}
+#skin-btn {
+    width: 30%
+}
+#play-btn:hover {
+    border: 2px solid #11B7FF
+}
+#:hover {
+    border: 2px solid #FFF200
+}
+#rule-btn:hover {
+    border: 2px solid #C1FF00
+}
+#settings-btn:hover {
+    border: 2px solid #5BFFBA
+}
+.checkbox label {
+    margin-right: 10px
+}
+.mb-10 {
+    margin-bottom: 10px
+}
+.loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite
+}
+.center {
+    display: table;
+    margin: 0 auto
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
