@@ -32,9 +32,10 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-105787724-1');
-</script>
+	</script>
 	<img src="aga.png" id="img">
 	<span id="dpTime">오전 00:00:00</span>
+	<body oncopy="return false" oncut="return false" onselectstart="return false">
 	<div id="overlays">
 		<div id="helloDialog">
 				<div id="seval">
@@ -137,7 +138,7 @@
 			<div class="alert alert-danger" style="width: 425px; margin: 205px auto; padding: 15px 15px 15px 15px;">
 			<strong><span class="glyphicon glyphicon-exclamation-sign"></span> 연결 시도 중...</strong><br /> 서버가 꺼져있거나 점검중입니다 문제가 지속될경우 <a class="alert-link" href="http://cafe.naver.com/aquaparty">카페</a>를 확인해 주세요.
 			</div>
-	</div> <canvas id="canvas"></canvas> <input type="text" id="chat_textbox" placeholder="Enter를 눌러 채팅 전송!" maxlength="200" />
+	</div> <canvas id="canvas"></canvas> <input type="text" id="chat_textbox" onpaste="return false" placeholder="Enter를 눌러 채팅 전송!" maxlength="200" />
 	<div style="font-family:'Ubuntu'">&nbsp;</div>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/vector.js"></script>
