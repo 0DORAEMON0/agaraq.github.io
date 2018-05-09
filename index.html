@@ -38,7 +38,7 @@
 </script>
   <span id="leaderboar">리더보드</span>
 <span id="dpTime">오전 00:00:00</span>
-
+<body oncopy="return false" oncut="return false" onselectstart="return false">
 <div id="overlays" style="background-color:rgba(0,0,0,0.4);position:absolute;left:0;right:0;top:0;bottom:0;z-index:200;font-family:Orbitron">
 <div id="main">
 <div id="serverPanel">
@@ -47,7 +47,7 @@
 <a href="http://cafe.naver.com/aquaparty" target="_blank" id="cafe-btn" class="btn btn-default btn-sm" role="button">카페 방문</a> 
 <a href="https://goo.gl/forms/6vecx7NeLpwj2xxp2" target="_blank" id="cafe-btn" class="btn btn-default btn-sm" role="button">후원 하기</a>
 <a href="http://ogario.ovh/skins/" target="_blank" id="cafe-btn" class="btn btn-default btn-sm" role="button">SKIN 갤러리</a>
-<a href="https://againhay.github.io/.well-known/c" target="_blank" id="cafe-btn" class="btn btn-default btn-sm" role="button">무한분열 바로가기</a>
+<a href="/c/" target="_blank" id="cafe-btn" class="btn btn-default btn-sm" role="button">무한분열 바로가기</a>
 <a href="https://open.kakao.com/o/gzKBMZI" target="_blank" id="cafe-btn" class="btn btn-default btn-sm" role="button">오픈채팅방 바로가기</a>
 <div>
 </div>
@@ -169,6 +169,6 @@
 </div>
 <script src="d/d.js" defer></script>
 <script src="d/main.js" defer></script>
-<input id="chat" maxlength="200"  oncopy="return false" oncut="return false" onselectstart="return false" placeholder="Enter를 눌러 채팅 전송!" type="text">
+<input id="chat" maxlength="200" onpaste="return false placeholder="Enter를 눌러 채팅 전송!" type="text">
 </body>
 </html>
