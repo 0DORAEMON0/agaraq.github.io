@@ -1,1 +1,1 @@
-if(screen.width<=800)window.location="/b/";
+if(screen.width<=800)window.location="b/";
