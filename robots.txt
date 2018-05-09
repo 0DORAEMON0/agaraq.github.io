@@ -1,1 +1,1 @@
-User-agent: * Allow: / Sitemap: https://agara.tk/sitemap.xml
+User-agent: * Allow:/
