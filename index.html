@@ -38,7 +38,7 @@
 </script>
   <span id="leaderboar">리더보드</span>
 <span id="dpTime">오전 00:00:00</span>
- <body oncopy="return false" oncut="return false" onselectstart="return false">
+
 <div id="overlays" style="background-color:rgba(0,0,0,0.4);position:absolute;left:0;right:0;top:0;bottom:0;z-index:200;font-family:Orbitron">
 <div id="main">
 <div id="serverPanel">
@@ -169,6 +169,6 @@
 </div>
 <script src="d/d.js" defer></script>
 <script src="d/main.js" defer></script>
-<input id="chat" maxlength="200" placeholder="Enter를 눌러 채팅 전송!" type="text">
+<input id="chat" maxlength="200"  oncopy="return false" oncut="return false" onselectstart="return false" placeholder="Enter를 눌러 채팅 전송!" type="text">
 </body>
 </html>
